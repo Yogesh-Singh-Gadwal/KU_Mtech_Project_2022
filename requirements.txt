@@ -57,3 +57,4 @@ validators==0.20.0
 watchdog==2.1.9
 wincertstore==0.2
 zipp==3.10.0
+nltk==3.7
