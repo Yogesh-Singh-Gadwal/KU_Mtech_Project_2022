@@ -75,10 +75,7 @@ def category_image(argument):
     return switcher.get(argument, " ")
 
 # load the model from disk
-global detect_Model
-detectFile = open('model/SVC_final.pkl','rb')
-detect_Model = pickle.load(detectFile)
-detectFile.close()
+detect_Model = pickle.load(open('model/SVC_final.pkl', 'rb'))
 
 st.header("Review Prediction leveraging Multi Class Multi Output Classification")
 
