@@ -3,6 +3,7 @@ import pickle
 import re
 import nltk
 nltk.download('stopwords')
+nltk.download('wordnet')
 from nltk.corpus import stopwords
 import contractions
 import emoji
