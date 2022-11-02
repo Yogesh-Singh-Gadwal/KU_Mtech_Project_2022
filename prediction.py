@@ -7,8 +7,9 @@ import contractions
 import emoji
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
-import streamlit as st
 from spellchecker import SpellChecker
+import streamlit as st
+
 
 def stop_words_remover(text):
   stop = stopwords.words('english')
