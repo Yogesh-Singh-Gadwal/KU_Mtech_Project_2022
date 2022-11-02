@@ -4,6 +4,7 @@ import re
 import nltk
 nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('omw-1.4')
 from nltk.corpus import stopwords
 import contractions
 import emoji
