@@ -10,7 +10,6 @@ from nltk.corpus import wordnet
 from spellchecker import SpellChecker
 import streamlit as st
 
-
 def stop_words_remover(text):
   stop = stopwords.words('english')
   return " ".join(x for x in text.split() if x not in stop and len(x) > 3)
