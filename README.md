@@ -1,2 +1,1 @@
-# KU_Project_Demo
- KU MTECH FINAL PROJECT
+# KU_MTech_Project_2022
